@@ -127,13 +127,17 @@ input {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px
+  gap: 30px;
 }
 
 .content__video-card {
   display: flex;
   align-items: start;
   color: white;
+}
+
+.content__card-link:active {
+  background: #545050;
 }
 
 .content__card-link_current {
